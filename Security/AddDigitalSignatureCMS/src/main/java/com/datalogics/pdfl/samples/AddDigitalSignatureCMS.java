@@ -19,7 +19,7 @@ public class AddDigitalSignatureCMS {
         try {
             Document doc = new Document();
             
-            String sInput = Library.getResourceDirectory() + "Sample_Input/SixPages.jpg";
+            String sInput = Library.getResourceDirectory() + "Sample_Input/SixPages.pdf";
             String sLogo = Library.getResourceDirectory() + "Sample_Input/ducky_alpha.tif";
             String sOutput = "DigSigCMS-out.pdf";
 

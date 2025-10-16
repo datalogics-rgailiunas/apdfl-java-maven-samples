@@ -19,7 +19,7 @@ public class AddDigitalSignatureRFC3161 {
         try {
             Document doc = new Document();
             
-            String sInput = Library.getResourceDirectory() + "Sample_Input/CreateAcroForm2h.jpg";
+            String sInput = Library.getResourceDirectory() + "Sample_Input/CreateAcroForm2h.pdf";
 
             String sOutput = "DigSigRFC3161-out.pdf";
 
